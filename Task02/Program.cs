@@ -10,16 +10,19 @@ int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе целое число");
 int b = Convert.ToInt32(Console.ReadLine());
 
-if (a>b) {
+if (a>b) 
+{
     Console.WriteLine($"{a} больше");
     Console.WriteLine($"{b} меньше");
 }
 
-if (a<b) {
+if (a<b) 
+{
     Console.WriteLine($"{b} больше");
     Console.WriteLine($"{a} меньше");
 }
 
-else {
+else 
+{
     Console.WriteLine("числа равны");
 }

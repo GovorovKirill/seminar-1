@@ -13,11 +13,13 @@ Console.WriteLine("Введите третье число и я покажу В�
 int c = Convert.ToInt32(Console.ReadLine());
 int max = a;
 
-if (a<b) {
+if (a<b) 
+{
     max = b;
 }
 
-if (c>max) {
+if (c>max) 
+{
    max=c;
 }
 

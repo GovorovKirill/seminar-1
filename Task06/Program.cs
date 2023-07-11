@@ -9,10 +9,12 @@
 Console.WriteLine("Введите число, а я скажу четное оно или нет");
 int a = Convert.ToInt32(Console.ReadLine());
 
-if (a % 2 ==0) {
+if (a % 2 ==0) 
+{
     Console.WriteLine("Введенное Вами число четное");
 }
 
-else {
+else 
+{
     Console.WriteLine("Введенное Вами число нечетное");
 }
