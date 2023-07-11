@@ -11,15 +11,17 @@ int counter = 1;
 
 if (number <= 1) 
 {
-    Console.WriteLine("Четных чисел нет");
+    Console.WriteLine("Ничего не вышло... введите число побольше, хотя бы 2 и повторите попытку");
 }
 
 else 
 {
-    counter = 1;
-    while (counter<=number && counter % 2 == 0) 
+    while (counter<=number) 
     {
-        Console.Write(counter + " ");
-        counter = counter = 1;
+        if (counter % 2 == 0) 
+        {
+            Console.WriteLine((counter));
+        }
+        counter = counter + 1;
     }
 } 
